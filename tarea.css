@@ -1,0 +1,83 @@
+/* Configuración Base */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e2e8f0;
+    margin: 20px;
+}
+
+/* Encabezado y Footer Naranja */
+.header-naranja, .footer-naranja {
+    background-color: #f69322; /* Color naranja del modelo */
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #d17a1a;
+}
+
+/* Menú de Navegación Verde */
+.menu-verde {
+    background-color: #4ade80;
+    padding: 15px;
+    text-align: center;
+    border-radius: 20px;
+    margin-bottom: 15px;
+}
+
+.menu-verde a {
+    text-decoration: none;
+    color: black;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+/* Contenedor con Flexbox */
+.contenedor-principal {
+    display: flex;
+    gap: 15px;
+}
+
+/* Sección Central Gris */
+.bloque-gris {
+    background-color: #6b7280;
+    flex: 3;
+    padding: 20px;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+}
+
+/* Sub-tarjetas Verdes */
+.tarjeta-verde {
+    background-color: #8ce64b;
+    color: black;
+    margin: 15px 0;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+/* Sidebar Azul */
+.barra-azul {
+    background-color: #4da6e7;
+    flex: 1;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.busqueda input {
+    width: 80%;
+    padding: 8px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 10px;
+}
+
+.busqueda button {
+    background-color: #3b82f6;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+}
